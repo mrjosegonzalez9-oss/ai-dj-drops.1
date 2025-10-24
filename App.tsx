@@ -309,9 +309,32 @@ const App: React.FC = () => {
             )}
           </div>
         </main>
-        <footer className="text-center mt-8 text-gray-500 text-sm">
-            <p>Creado con Gemini API. Hecho con React & Tailwind CSS.</p>
-        </footer>
+       <div style={{ marginTop: '40px', textAlign: 'center' }}>
+  <p style={{ color: '#aaa', fontSize: '14px', marginBottom: '10px' }}>
+    ¿Te gustó la herramienta? ¡Ayuda a mantener los servidores online!
+  
+  <a 
+    href="https://www.paypal.com/donate/?hosted_button_id=9L9F5FHRQFEP5" // <-- AQUÍ VA EL ENLACE
+    target="_blank" 
+    rel="noopener noreferrer"
+    style={{ 
+      display: 'inline-block', 
+      padding: '12px 30px', 
+      backgroundColor: '#0070BA', 
+      color: 'white', 
+      textDecoration: 'none', 
+      borderRadius: '25px',
+      fontWeight: 'bold',
+      fontSize: '16px'
+    }
+    }
+   >Hacer una Donación
+  </a>
+</a>
+<div style=...
+<footer className="text-center mt-8 text-gray-500 text-sm">
+  <p>Creado con Gemini API. Hecho con React & Tailwind CSS.</p>
+</footer>
       </div>
     </div>
   );
